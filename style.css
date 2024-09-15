@@ -1,0 +1,92 @@
+.topLogo{
+    width: 97px;
+    height: 59px;
+}
+
+.navLogo{
+    width: 30px;
+    height: 30px;
+}
+
+.dm-sans{
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.text-color-main{
+    color:#42446E;
+}
+
+.text-color-gray{
+    color: #666666 !important;
+}
+
+.text-purple{
+    color:#bb3ac9;
+}
+
+.main-text{
+    font-size: 48px;
+}
+
+.text-medium{
+    font-size: 17px;
+}
+
+.tiny-text{
+    font-size:12px;
+}
+
+.text-gradient{
+    background-image: linear-gradient(90deg,#13B0F5, #CA24B4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.technologies>div>img{
+    height: 120px;
+    width: 120px;
+}
+
+.card{
+    border-radius:20px;
+}
+
+.footer-devider{
+    width: 100%;
+    height: 2px;
+    background-color: #666666;
+    opacity: 30%;
+}
+
+.nav-spacer{
+    margin-bottom: 300px;
+}
+
+.main-spacer{
+    margin-bottom: 340px;
+}
+
+.tecth-spacer{
+    margin-bottom: 210px;
+}
+
+.projects-spacer{
+    margin-bottom: 200px;
+}
+
+@media(max-width: 460px){
+    .text-shrink{
+        font-size: 12px !important;
+    }
+}
+
+@media(max-width:992px){
+    .spacer-shrink{
+        margin-bottom: 50px !important;
+    }
+}
